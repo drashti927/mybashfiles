@@ -116,4 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 alias sysupdate='sudo apt update'
-~/Bash-Snippets/weather/weather "Indiana PA"
+~/weather/weather.sh -p ~/.cache/weather
